@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+        <img src="./img_avatar2.png" alt="error" id="img">
+        <form action="/" method="POST">
+            <div class="both">
+
+
+                <label for="email" class="email"><b>Email</b></label><br>
+                <input type="email" name="email" id="email"><br><br>
+        
+                <label for="pass" class="passwd"><b>PassWord</b></label><br>
+                <input type="password" name="pass" id="passwd"><br><br>
+
+                <button class="btn" type="submit" id="btn">Login</button><br><br>
+
+                <label for="rem">Remember Me</label>
+                <input type="checkbox" name="rem" id="rem">
+            </div>
+
+        </form>
+    </div>
+    <script>
+        var button = document.getElementById('btn');
+        button.addEventListener('click',function(){
+            setTimeout(
+                empty,100
+            )
+    
+            function empty(){
+                document.getElementById('email').value='';           
+                document.getElementById('passwd').value='';
+                document.getElementById('email').focus();
+            }
+            
+    
+        })
+    </script>
+
+    
+</body>
+</html>

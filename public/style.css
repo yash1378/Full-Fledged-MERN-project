@@ -1,0 +1,44 @@
+.box{
+
+    padding: 30px 30px;
+    margin: 40px 40px;
+    height: 530px;
+    width: 418px;
+
+    position: absolute;
+    left: 520px;
+
+}
+.both{
+
+    width: 400px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 210px;
+    padding: 10px 10px;
+}
+#email,#passwd{
+    height: 35px;
+    width: 400px;
+    position: relative;
+    top: 0px;
+}
+
+#img{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    left: 50px;
+    top: 0px;
+    border-radius: 150px;
+}
+.btn{
+    position: relative;
+    width: 408px;
+    height: 30px;
+    top: 0px;
+    background-color: green;
+    color: white;
+}
